@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body
+{
+
+    font-family: 'Fira Code', monospace;
+
+}
+a
+{
+	
+	text-decoration: none;
+	
+}
+
+a:link
+{
+	
+	color:#338AC9;
+	
+}
+
+
+a:visited
+{
+	
+	color:#338AC9;
+	
+}
+
+
+a:hover
+{
+	
+	color:#23538c;
+	text-decoration: underline;
+}
+
+/* https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers
+
+*/
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: white;
+    }
+}
+
+
+
