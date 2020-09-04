@@ -11,3 +11,6 @@ function copy_to_clipboard(field) {
 
   /* Copy the text inside the text field */
   document.execCommand("copy");
+	
+	
+}
