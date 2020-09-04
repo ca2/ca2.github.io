@@ -11,6 +11,14 @@ function copy_to_clipboard(field) {
 
   /* Copy the text inside the text field */
   document.execCommand("copy");
+	var text = copyText.value;
+	copyText.value="Copied!!";
 	
+	setTimeout(()->
+			  {
+	
+		copyText.value = text;
+	}
+	}, 1000);
 	
 }
