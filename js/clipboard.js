@@ -18,7 +18,6 @@ function copy_to_clipboard(field) {
 			  {
 	
 		copyText.value = text;
-	}
 	}, 1000);
 	
 }
