@@ -14,7 +14,7 @@ function copy_to_clipboard(field) {
 	var text = copyText.value;
 	copyText.value="Copied!!";
 	
-	setTimeout(()->
+	setTimeout(()=>
 			  {
 	
 		copyText.value = text;
