@@ -3,6 +3,18 @@
 body
 {
 
+    font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+
+}
+.code
+{
+
+    font-family: 'Fira Code', monospace;
+
+}
+.command
+{
+
     font-family: 'Fira Code', monospace;
 
 }
