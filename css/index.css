@@ -94,6 +94,29 @@ a:hover
         background-color: white;
         color: black;
     }
+	 a:link
+{
+	
+	color:#338AC9;
+	
+}
+
+
+a:visited
+{
+	
+	color:#338AC9;
+	
+}
+
+
+a:hover
+{
+	
+	color:#23538c;
+	text-decoration: underline;
+}
+
 }
 
 
@@ -103,6 +126,29 @@ a:hover
         background-color: #000;
         color: white;
     }
+	 a:link
+{
+	
+	color:#3ea7f3;
+	
+}
+
+
+a:visited
+{
+	
+	color:#3ea7f3;
+	
+}
+
+
+a:hover
+{
+	
+	color:#3f92f8;
+	text-decoration: underline;
+}
+
 }
 
 
