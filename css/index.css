@@ -5,15 +5,17 @@ body
 
 	padding:49px;
 	padding-top:23px;
-    font-family: 'Fira Code', monospace;
+   font-family: 'Fira Code', monospace;
 	
 
 }
+
+
 .ca2_block1
 {
 	
 	padding:49px;
-	background: linear-gradient(to right, rgba(255,255,255,0.91) 23%, rgba(212,234,135,0.84));
+	background: linear-gradient(to right, rgba(255,255,255,0.51) 23%, rgba(212,234,135,0.89));
 	
 }
 .ms
