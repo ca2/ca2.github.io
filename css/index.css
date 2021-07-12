@@ -89,65 +89,81 @@ a:hover
 */
 
 /* Light mode */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: black;
-    }
-	 a:link
+@media (prefers-color-scheme: light) 
 {
-	
-	color:#338AC9;
-	
-}
+
+   body
+	{
+
+      background-color: white;
+   	color: black;
+
+	}
 
 
-a:visited
-{
+	a:link
+	{
+
+		color:#338AC9;
 	
-	color:#338AC9;
+	}
+
 	
-}
+	a:visited
+	{
+	
+		color:#338AC9;
+	
+	}
 
 
-a:hover
-{
+	a:hover
+	{
 	
-	color:#23538c;
-	text-decoration: underline;
-}
+		color:#23538c;
+		text-decoration: underline;
+
+	}
 
 }
 
 
 /* Dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #000;
-        color: white;
-    }
+@media (prefers-color-scheme: dark) 
+{
+
+	body 
+	{
+   
+		background-color: #000;
+      color: white;
+   
+	}
+
+
 	 a:link
-{
+	{
 	
-	color:#3ea7f3;
+		color:#3ea7f3;
 	
-}
+	}
 
 
-a:visited
-{
+	a:visited
+	{
 	
-	color:#3ea7f3;
+		color:#3ea7f3;
 	
-}
+	}
 
 
-a:hover
-{
+	a:hover
+	{
 	
-	color:#3f92f8;
-	text-decoration: underline;
-}
+		color:#3f92f8;
+		text-decoration: underline;
+
+	}
 
 }
 
