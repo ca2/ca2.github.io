@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>How to build a ca2 Framework solution at Windows... - repository.ca2.software</title>
+<title>How to create a ca2 Framework solution and project from a "template" project at Windows... - repository.ca2.software</title>
 <link href="/css/index.css" rel="stylesheet" />
 <script src="js/clipboard.js"> </script>
 </head>
@@ -12,14 +12,17 @@
 
 			
 			<div class="main-item">
-				<h1><img src="/image/windows32.png" />&nbsp;How to build a ca2 Framework solution at Windows...</h1>
+				<h1><img src="/image/windows32.png" />&nbsp;How to create a ca2 Framework solution and project from a "template" project at Windows...</h1>
+				<h2>Our "template" project/app will be app_simple_drawing https://github.com/ca2/app-simple/drawing</h2>
 			</div>
+
 
 			<div class="main-item">
 				<h3>Check the <a href="/prerequisites/windows/index.html">prerequisites</a> at Windows, if you haven't done so already.</h3>
 			</div>
 
 			
+
 			<div class="main-item">
 				<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Create repositories for SolutionUsingCa2:</h2>
 				<h3>Replace SolutionUsingCa2 by desired name for your solution in GitHub.</h3>
@@ -66,7 +69,7 @@
 					<p>cd \LocalFolderForSolutionUsingCa2\source</p>
 					<p>git submodule add https://github.com/ca2/app app</p>
 					<p>git submodule add https://github.com/ca2/include include</p>
-					<p>(*Optionally) git submodule add https://github.com/ca2/app-simple app-simple</p>
+					<p>(*Source of Template Project Using ca2) git submodule add https://github.com/ca2/app-simple app-simple</p>
 					<h4>* For projects that would server as sample/example/template/model.</h4>
 					<p>git submodule add https://github.com/ca2/third third</p>
 					<p>git submodule add https://github.com/yourgithubaccount/SolutionUsingCa2 SolutionProjectsUsingCa2</p>
@@ -74,21 +77,23 @@
 			</div>
 
 			<div class="main-item">
-				<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Create folder structure for your App1 project</h2>
-				<h3>Replace App1 by the name of your app project at SolutionUsingCa2</h3>
+				<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Create folder structure for your Application1 project</h2>
+				<h3>Replace Application1 by the name of your app project at SolutionUsingCa2</h3>
 				<blockquote>
-					<p>https://github.com/yourgithubaccount/SolutionUsingCa2/_matter/App1/_std/_std (for language neutral or default resources)</p>
-					<p>https://github.com/yourgithubaccount/SolutionUsingCa2/_matter/App1/en-us/en-us (for language english resources)</p>
+					<p>Copy folder structure from C:\LocalFolderForSolutionUsingCa2\source\app-simple\_matter\drawing to C:\LocalFolderForSolutionUsingCa2\source\SolutionUsingCa2\_matter\Application1</p>
+					<p>https://github.com/yourgithubaccount/SolutionUsingCa2/_matter/Application1/_std/_std (for language neutral or default resources)</p>
+					<p>https://github.com/yourgithubaccount/SolutionUsingCa2/_matter/Application1/en-us/en-us (for language english resources)</p>
 					<p>...</p>
-					<p>https://github.com/yourgithubaccount/SolutionUsingCa2/App1 (for source and project files for App1 project)</p>
+					<p>Copy folder structure from C:\LocalFolderForSolutionUsingCa2\source\app-simple\drawing to C:\LocalFolderForSolutionUsingCa2\source\SolutionUsingCa2\Application1</p>
+					<p>https://github.com/yourgithubaccount/SolutionUsingCa2/Application1 (for source and project files for Application1 project)</p>
 				</blockquote>
 			</div>
 
 
 			<div class="main-item">
 				<h1>The Visual Studio solution file is recommended to be put in path below:</h1>
-				<p class="emphasis-item">C:\LocalFolderForSolutionUsingCa2\source\_seed\App1.sln</p>
-				<p class="emphasis-item">Remote path: https://github.com/yourrepository/SolutionUsingCa2/_seed/App1.sln</p>
+				<p class="emphasis-item">C:\LocalFolderForSolutionUsingCa2\source\SolutionProjectsUsingCa2\_seed\Application1.sln</p>
+				<p class="emphasis-item">Remote path: https://github.com/yourrepository/SolutionUsingCa2/_seed/Application1.sln</p>
 			</div>
 			
 
