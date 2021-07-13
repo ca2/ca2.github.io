@@ -60,41 +60,45 @@
 
 	<div class="main-item">
 		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Create repository named project (replace project by desired name) and set it current:</h2>
+		<h3>The given example here shows example for 3 (three) online repositories previously created at GitHub: </h3>
+		<ol>
+			<p>https://github.com/example/project-windows-solution</p>
+			<p>https://github.com/example/project-source</p>
+			<p>https://github.com/example/project</p>
+		</ol>
 		<blockquote>
   			<p>mkdir C:\project</p>
   			<p>C:</p>
   			<p>cd \project</p>
-			<p>git</p>
+			<p>https://github.com/example/project-windows-solution</p>
 		</blockquote>
+	</div>
 
 	<div class="main-item">
 		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;For windows development (with command prompt folder C:\project):</h2>
 		<blockquote>
-  		<p>git submodule add https://github.com/ca2/<remote_url> <destination_folder>
-  </p>
-  <p>git clone https://github.com/ca2/app-simple/
-  </p>
-  <p>git clone https://github.com/ca2/include/
-  </p>
-  <p>git clone https://github.com/ca2/platform-windows/
-  </p>
-  <p>git clone https://github.com/ca2/third/
-  </p>
-</blockquote>
-				</div>
-				<div class="main-item">
-<ol>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-<p  class="emphasis-item">Open C:\myca2-test\platform-windows\_seed\simple.sln at Visual Studio</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-				</div>
-				<div class="main-item">
-  <p>(c)st&lt;3t(b)s </p>
-</div>
+  			<p>git submodule add https://github.com/ca2/windows-archive archive</p>
+		</blockquote>
+	</div>
+
+	<div class="main-item">
+		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Your project "source" and ca2 Framework common source will be here (with command prompt folder C:\project):</h2>
+		<blockquote>
+			<p>git submodule add https://github.com/ca2/app app</p>
+			<p>git submodule add https://github.com/ca2/include include</p>
+			<p>(Optionally for example projects) git submodule add https://github.com/ca2/app-simple app-simple</p>
+			<p>git submodule add https://github.com/example/project project</p>
+		</blockquote>
+	</div>
+
+	<div class="main-item">
+		<h1>The Visual Studio solution file is recommended to be put in path below:</h1>
+		<p class="emphasis-item">C:\project\source\project\_seed\project.sln</p>
+	</div>
+	
+	<div class="main-item">
+  		<p>(c)st&lt;3t(b)s </p>
+	</div>
+	
 </body>
 </html>
