@@ -18,6 +18,28 @@ body
 	background: linear-gradient(to right, rgba(255,255,255,0.49) 23%, rgba(212,234,135,0.77));
 	
 }
+
+
+
+.main-item
+{
+	height: auto;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #ACA690;
+
+}
+
+
+
+.main-item > h2
+{
+
+	font-size: 18pt;
+
+}
+
+
 .ms
 {
 
@@ -83,6 +105,15 @@ a:hover
 	color:#23538c;
 	text-decoration: underline;
 }
+
+
+.no-borders
+{
+
+	border:none;
+
+}
+
 
 /* https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers
 
