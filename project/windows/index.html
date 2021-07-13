@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>How to build a ca2 Framework solution... - repository.ca2.software</title>
+<title>How to build a ca2 Framework solution at Windows... - repository.ca2.software</title>
 <link href="/css/index.css" rel="stylesheet" />
 <script src="js/clipboard.js"> </script>
 <style>
@@ -29,51 +29,73 @@
 	
 	
 	<div class="main-item">
-		<h1><img src="/image/windows32.png" />&nbps;How to Build ca2 Framework at Windows</h1>
+		<h1><img src="/image/windows32.png" />&nbps;How to build a ca2 Framework solution at Windows...</h1>
 	</div>
 
 	<div class="main-item">
 		<h3><img src="/image/windows32.png"/>&nbsp;Check the <a href="/prerequisites/windows/index.html">prerequisites</a> at Windows,<br>
 		if you haven't done so already.</h3>
-	</div>>
+	</div>
 
 	
 	<div class="main-item">
-		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Create repository named project (replace project by desired name) and set it current:</h2>
+		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Create repository named SolutionProjectsUsingCa2 (replace solution by desired SolutionProjectsUsingCa2 for the solution1) and set it current:</h2>
 		<h3>The given example here shows example for 3 (three) online repositories previously created at GitHub: </h3>
 		<ul>
-			<il>https://github.com/example/project-windows-solution</il>
-			<il>https://github.com/example/project-source</il>
-			<il>https://github.com/example/project</il>
+			<il>https://github.com/yourrepository/SolutionProjectsUsingCa2-windows-solution</il>
+			<il>https://github.com/yourrepository/SolutionProjectsUsingCa2-source</il>
+			<il>https://github.com/yourrepository/SolutionProjectsUsingCa2</il>
 		</ul>
 		<blockquote>
   			<p>mkdir C:\project</p>
   			<p>C:</p>
   			<p>cd \project</p>
-			<p>https://github.com/example/project-windows-solution</p>
+			<p>git clone https://github.com/yourrepository/SolutionProjectsUsingCa2-windows-solution .</p>
 		</blockquote>
 	</div>
 
 	<div class="main-item">
 		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;For windows development (with command prompt folder C:\project):</h2>
 		<blockquote>
-  			<p>git submodule add https://github.com/ca2/windows-archive archive</p>
+  			<p>git submodule add https://github.com/ca2/windows-archive archive --recurse-submodules</p>
 		</blockquote>
 	</div>
 
 	<div class="main-item">
-		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Your project "source" and ca2 Framework common source will be here (with command prompt folder C:\project):</h2>
+		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Create a place for your SolutionProjectsUsingCa2 source and helper platform neutral (or mostly neutral) projects...</h2>
 		<blockquote>
+			<p>At folder C:\project\source</p>
+			<p>git submodule add https://github.com/yourrepository/SolutionProjectsUsingCa2-source source</p>
+			<p>cd C:\project\source</p>
+		</blockquote>
+	</div>	
+
+	<div class="main-item">
+		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Your solution "SolutionProjectsUsingCa2" and ca2 Framework common source will be here (with command prompt folder C:\project\source):</h2>
+		<blockquote>
+			<p>At folder C:\project\source</p>
 			<p>git submodule add https://github.com/ca2/app app</p>
 			<p>git submodule add https://github.com/ca2/include include</p>
 			<p>(Optionally for example projects) git submodule add https://github.com/ca2/app-simple app-simple</p>
-			<p>git submodule add https://github.com/example/project project</p>
+			<p>git submodule add https://github.com/ca2/third third</p>
+			<p>git submodule add https://github.com/yourrepository/SolutionProjectsUsingCa2 SolutionProjectsUsingCa2</p>
+		</blockquote>
+	</div>
+
+	<div class="main-item">
+		<h2><img src="/image/github.webp" style="width: 32px;" alt=""/>&nbsp;Your project for App1 (replace App1 by the name of your app project at SolutionProjectsUsingCa2) files would lie at a folder structure like this:</h2>
+		<blockquote>
+			<p>https://github.com/yourrepository/SolutionProjects/_matter/App1/_std/_std (for language neutral or default resources)</p>
+			<p>https://github.com/yourrepository/SolutionProjects/_matter/App1/en-us/en-us (for language english resources)</p>
+			<p>...</p>
+			<p>https://github.com/yourrepository/SolutionProjects/App1 (for source and project files for App1 project)</p>
 		</blockquote>
 	</div>
 
 	<div class="main-item">
 		<h1>The Visual Studio solution file is recommended to be put in path below:</h1>
-		<p class="emphasis-item">C:\project\source\project\_seed\project.sln</p>
+		<p class="emphasis-item">C:\project\source\project\_seed\App1.sln</p>
+		<p class="emphasis-item">Remote path: https://github.com/yourrepository/SolutionProjects/_seed/App1.sln</p>
 	</div>
 	
 	<div class="main-item">
